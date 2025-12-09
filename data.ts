@@ -10,65 +10,123 @@ import OrdenaLaHistoria from './components/OrdenaLaHistoria';
 export const stories: Story[] = [
     {
         id: '1',
-        title: { es: 'La Leyenda de los Hermanos Ayar', en: '', qu: '' },
-        author: { es: 'Tradición Andina', en: '', qu: '' },
+        title: { 
+            es: 'La Leyenda de los Hermanos Ayar', 
+            en: 'The Legend of the Ayar Brothers', 
+            qu: 'Ayar Panikunapa Willan' 
+        },
+        author: { es: 'Tradición Andina', en: 'Andean Tradition', qu: 'Andes Willakuy' },
         cover: 'https://i.imgur.com/fmVVSA4.png',
         content: {
             es: `Hace mucho, mucho tiempo, después de que un gran diluvio cubriera la tierra y borrara todo lo conocido, el Dios Sol (Inti) sintió compasión por el mundo y decidió enviar a sus hijos a repoblarlo.
-Desde la cima del Cerro Tamputoco, en la región de Pacaritambo, salieron cuatro hermanos y sus cuatro esposas. Ellos eran los Hermanos Ayar: Ayar Manco y Mama Ocllo, Ayar Cachi y Mama Cora, Ayar Uchu y Mama Rahua, Ayar Auca y Mama Huaco
+Desde la cima del Cerro Tamputoco, en la región de Pacaritambo, salieron cuatro hermanos y sus cuatro esposas. Ellos eran los Hermanos Ayar: Ayar Manco y Mama Ocllo, Ayar Cachi y Mama Cora, Ayar Uchu y Mama Rahua, Ayar Auca y Mama Huaco.
 Inti les dio una misión sagrada: encontrar el lugar perfecto para fundar una gran ciudad que lo adorara a él como su Dios principal. Para guiar su camino, Inti les entregó un objeto mágico: un bastón de oro. La señal sería clara: donde el bastón se hundiera completamente en la tierra con un solo golpe, ese sería el lugar elegido.
 Los ocho parientes iniciaron la travesía. Ayar Cachi, el más fuerte y valiente, era también el más impulsivo y arrogante. Su fuerza era tan grande que con un solo tiro de su honda podía derribar montañas y crear valles. Sus hermanos, temiendo que su temperamento y poder arruinaran la misión divina, idearon un plan para deshacerse de él.
 Con un engaño, lo enviaron de regreso a la cueva de Tamputoco a buscar provisiones que supuestamente habían olvidado. Cuando Ayar Cachi entró en la cueva, sus hermanos taparon la entrada con una enorme roca, atrapándolo. Lleno de furia, Ayar Cachi gritó con tanta rabia que la tierra tembló, pero ya era tarde. Así, el hermano poderoso quedó convertido en piedra en el interior de la montaña.
 El viaje continuó, lleno de tristeza y desafíos. Llegaron a un valle sagrado llamado Huanacauri. Allí, Ayar Uchu decidió quedarse, observando el cielo y la tierra. De pronto, fue transformado en una roca sagrada, un huaca, para velar por el camino de sus hermanos y ser una señal para ellos.
 Los dos hermanos restantes, Ayar Manco y Ayar Auca, siguieron su camino. Al llegar al cerro Anahuarque, Ayar Auca desarrolló unas alas y, como le había ordenado su padre Inti, voló hacia el valle del Cusco. Al tocar la tierra, Ayar Auca también fue convertido en piedra, pero su sacrificio marcó el lugar exacto donde debía fundarse el imperio.
 Finalmente, Ayar Manco y las mujeres llegaron al valle. Ayar Manco tomó el bastón de oro, y al hundirlo, la tierra lo absorbió con facilidad. ¡Habían encontrado el lugar prometido! Llenos de alegría, Ayar Manco y Mama Ocllo fundaron la ciudad, enseñando a los habitantes a cultivar la tierra y a tejer.
-Desde ese momento, Ayar Manco tomó el nombre de Manco Cápac, convirtiéndose en el primer Inca y fundador del glorioso Imperio del Tahuantinsuyo. Los incas siempre recordarían que su origen estaba ligado a la luz del Sol y a la valentía de los cuatro hermanos que buscaron la tierra prometida.`,
-            en: '',
-            qu: ''
+Desde ese momento, Ayar Manco tomó el nombre de Manco Cápac, convirtiéndose en el primer Inca y fundador del glorioso Imperio del Tahuantinsuyo.`,
+            en: `A long, long time ago, after a great flood covered the earth and erased everything known, the Sun God (Inti) felt compassion for the world and decided to send his children to repopulate it.
+From the top of Mount Tamputoco, in the region of Pacaritambo, emerged four brothers and their four wives. They were the Ayar Brothers: Ayar Manco and Mama Ocllo, Ayar Cachi and Mama Cora, Ayar Uchu and Mama Rahua, Ayar Auca and Mama Huaco.
+Inti gave them a sacred mission: to find the perfect place to found a great city that would worship him as their main God. To guide their way, Inti gave them a magical object: a golden staff. The sign would be clear: wherever the staff sank completely into the earth with a single blow, that would be the chosen place.
+The eight relatives began the journey. Ayar Cachi, the strongest and bravest, was also the most impulsive and arrogant. His strength was so great that with a single shot of his sling he could knock down mountains and create valleys. His brothers, fearing that his temper and power would ruin the divine mission, devised a plan to get rid of him.
+Through deception, they sent him back to the Tamputoco cave to fetch supplies they had supposedly forgotten. When Ayar Cachi entered the cave, his brothers blocked the entrance with a huge rock, trapping him. Full of fury, Ayar Cachi screamed with such rage that the earth shook, but it was too late. Thus, the powerful brother was turned into stone inside the mountain.
+The journey continued, full of sadness and challenges. They arrived at a sacred valley called Huanacauri. There, Ayar Uchu decided to stay, observing the sky and the earth. Suddenly, he was transformed into a sacred rock, a huaca, to watch over his brothers' path and be a sign for them.
+The two remaining brothers, Ayar Manco and Ayar Auca, continued their way. Upon arriving at Mount Anahuarque, Ayar Auca developed wings and, as his father Inti had ordered, flew towards the Cusco valley. Upon touching the ground, Ayar Auca was also turned into stone, but his sacrifice marked the exact place where the empire was to be founded.
+Finally, Ayar Manco and the women arrived at the valley. Ayar Manco took the golden staff, and upon sinking it, the earth absorbed it easily. They had found the promised land! Full of joy, Ayar Manco and Mama Ocllo founded the city, teaching the inhabitants to cultivate the land and weave.
+From that moment on, Ayar Manco took the name Manco Cápac, becoming the first Inca and founder of the glorious Empire of Tahuantinsuyo.`,
+            qu: `Unay, unay pacha, hatun para tukuy pachata pampaykuptin, Inti Tayta khuyapayaspa churinkunata kachamurqan.
+Tamputoco orqomantam, Pacaritambo suyumanta, tawa wawqikuna tawa warminkunapiwan lloqsimurqanku. Paykunan karqanku Ayar Wawqikuna: Ayar Manco Mama Ocllowan, Ayar Cachi Mama Corawan, Ayar Uchu Mama Rahuawan, Ayar Auca Mama Huacowan.
+Inti Tayta huk hatun kamachikuyta qorqan: huk sumaq llaqtata paqarichinankupaq, maypichus payta yupaychanankupaq. Ñanninkuta pusananpaq, Inti huk qori tawnata qorqan. Maypichus tawna allpaman chinkaykunqa, chaymi akllasqa lugar kanqa.
+Pusaqninku puririyta qallarirqanku. Ayar Cachi, aswan kallpasapa, aswan phiña karqan. Warak'anwan orqokunata thunirqan. Wawqinkuna manchakuspa, huk pantaywan kutichirqanku.
+Tamputoco mach'ayman kutichispa, rumiwan wisq'arqanku. Ayar Cachi qapariptin, allpa karkatirqan, ichaqa rumiman tukupurqan.
+Huanacauri orqopi, Ayar Uchu rumiman tukurqan. Ayar Auca, phalaspa Cusco wayq'oman chayarqan, chaypi rumiman tukullarqantaq.
+Tukuyman, Ayar Manco qori tawnata allpaman sat'irqan. Tawna chinkaykuptin, kusikurqanku. Ayar Manco, Manco Cápac sutichasqa, Tahuantinsuyo Inka suyuta paqarichirqan.`
         },
         illustrations: [],
-        audioSrc: 'https://drive.google.com/uc?export=download&id=1x3FFLZNpdBBN_F6IsgbFHiMhaM4ZG8EW',
-        audioDuration: '6:20'
+        audioSrc: {
+            es: 'https://drive.google.com/uc?export=download&id=1x3FFLZNpdBBN_F6IsgbFHiMhaM4ZG8EW',
+            en: null, 
+            qu: null
+        },
+        audioDuration: {
+            es: '6:20'
+        }
     },
     {
         id: '2',
-        title: { es: 'El Zorro y el Cuy', en: '', qu: '' },
-        author: { es: 'Tradición Andina', en: '', qu: '' },
+        title: { es: 'El Zorro y el Cuy', en: 'The Fox and the Guinea Pig', qu: 'Atuqwan Ukucha' },
+        author: { es: 'Tradición Andina', en: 'Andean Tradition', qu: 'Andes Willakuy' },
         cover: 'https://i.imgur.com/CtMTKPL.png',
         content: {
-            es: `En las altas y frías punas de los Andes, el zorro, conocido como Atoq, se consideraba el animal más inteligente y veloz. Por su parte, el pequeño cuy (conejillo de indias) era visto como una criatura simple y fácil de atrapar. Pero la apariencia, en el mundo andino, a menudo es un engaño.
-Una mañana, el zorro Atoq, hambriento como siempre, descubrió un campo de papas frescas y tiernas, justo el alimento favorito del cuy. Atoq ideó un plan: se escondería y esperaría a que algún cuy tonto cayera en su trampa.
-Al poco tiempo, el pequeño y rechoncho cuy se acercó al campo. El zorro saltó y, de un solo manotazo, lo atrapó.
-—¡Ja, ja, ja! —se rió Atoq—. ¡Hoy tendré un sabroso banquete, cuy! Nadie puede escapar de mi astucia.
-El cuy, sin perder la calma, miró al zorro con una expresión de gran seriedad.
-—Qué pena, señor Atoq —dijo el cuy, suspirando—. Me va a comer justo ahora que acabo de hacer un gran descubrimiento.
-El zorro, cuya curiosidad era tan grande como su apetito, ladeó la cabeza.
-—¿Qué descubrimiento, criatura insignificante?
-—En ese lago de allí —señaló el cuy hacia un charco de agua turbia—, hay un gigantesco queso de oro flotando. Lo acabo de ver. Quería sacarlo para dárselo a mi familia, pero es demasiado pesado para mí.
-Atoq miró el reflejo de la Luna en el agua, que por la turbidez parecía un disco amarillo brillante. Creyó al instante que era un tesoro. Su ambición pudo más que su hambre.
-—¡Tonto cuy! ¡Ese queso de oro será mío! —dijo Atoq, y soltó al cuy para correr hacia el lago.
-—Pero señor Atoq, es muy pesado —le advirtió el cuy.
-El zorro no le hizo caso. Decidido a tener el tesoro, Atoq se lanzó de cabeza al agua helada para buscar el "queso", luchando contra el peso que, en realidad, no existía. Al salir empapado y sin nada, se dio cuenta de la Luna reflejada y entendió el engaño.
-Furioso, el zorro corrió de vuelta, pero el cuy ya no estaba. Había usado ese momento para escabullirse bajo una piedra.
-Días después, Atoq encontró al cuy durmiendo al pie de un árbol. Esta vez no le daría oportunidad de escapar.
-—¡Ahora sí que no te me escapas, mentiroso! —rugió el zorro, amarrando con fuerza al cuy a la rama de un árbol con una soga de ichu (paja brava).
-—¡Socorro! —gritó el cuy, fingiendo terror—. ¡Sálvenme! ¡Me obligan a ser centinela del Sol!
-En ese momento, pasó un campesino y miró extrañado al cuy atado.
-—¿Y tú qué haces ahí, cuy? —preguntó el campesino.
-—¡Ay, amigo! —gimoteó el cuy—. Me han amarrado para que cuide el camino por donde pasará el Sol. Es un trabajo muy aburrido y caluroso. ¡Si me desatan, el Sol me castigará!
-El campesino, pensando que el cuy era un ser bendecido con una tarea divina, no dudó. Desató al cuy, que huyó a esconderse, y se ató él mismo, convencido de que su sacrificio le traería grandes bendiciones. Cuando el zorro regresó y encontró al campesino en lugar del cuy, solo pudo lamentar su propia lentitud y la inagotable astucia del pequeño roedor andino.
-El cuy, con su ingenio, había demostrado ser más rápido y poderoso que la fuerza y la astucia del zorro.`,
-            en: '',
-            qu: ''
+            es: `En las altas y frías punas de los Andes, el zorro, conocido como Atoq, se consideraba el animal más inteligente y veloz. Por su parte, el pequeño cuy era visto como una criatura simple.
+Una mañana, el zorro Atoq descubrió un campo de papas frescas. Atoq ideó un plan: se escondería y esperaría a que algún cuy cayera en su trampa.
+Al poco tiempo, el pequeño cuy se acercó. El zorro saltó y lo atrapó.
+—¡Ja, ja, ja! —se rió Atoq—. ¡Hoy tendré un sabroso banquete!
+El cuy miró al zorro con seriedad.
+—Qué pena, señor Atoq —dijo el cuy—. Me va a comer justo ahora que acabo de hacer un gran descubrimiento.
+—¿Qué descubrimiento?
+—En ese lago de allí, hay un gigantesco queso de oro flotando. Lo acabo de ver.
+Atoq miró el reflejo de la Luna en el agua, que parecía un queso. Su ambición pudo más que su hambre.
+—¡Ese queso de oro será mío! —dijo Atoq, y soltó al cuy para correr hacia el lago.
+El zorro se lanzó al agua helada. Al salir sin nada, entendió el engaño. Furioso, corrió de vuelta, pero el cuy ya no estaba.
+Días después, Atoq encontró al cuy durmiendo. Lo amarró a un árbol.
+—¡Ahora sí te comeré!
+—¡Socorro! —gritó el cuy—. ¡Me obligan a ser centinela del Sol!
+Pasó un campesino.
+—¿Qué haces ahí, cuy?
+—Me han amarrado para cuidar el camino del Sol. ¡Es un trabajo aburrido! Si me desatan, el Sol me castigará.
+El campesino desató al cuy y se ató él mismo. Cuando el zorro regresó y encontró al campesino, lamentó su lentitud.
+El cuy había demostrado ser más astuto que el zorro.`,
+            en: `In the high and cold Andes plateaus, the fox, known as Atoq, considered himself the smartest and fastest animal. The little guinea pig, however, was seen as a simple creature.
+One morning, Atoq discovered a field of fresh potatoes. He devised a plan to trap a guinea pig.
+Soon, the little guinea pig approached. The fox jumped and caught him.
+"Ha, ha, ha!" laughed Atoq. "Today I will have a tasty feast!"
+The guinea pig looked at the fox seriously.
+"What a pity, Mr. Atoq," said the guinea pig. "You are going to eat me just when I have made a great discovery."
+"What discovery?"
+"In that lake over there, there is a giant golden cheese floating. I just saw it."
+Atoq saw the reflection of the Moon in the water. His greed was greater than his hunger.
+"That golden cheese will be mine!" said Atoq, dropping the guinea pig to run towards the lake.
+The fox jumped into the freezing water. Finding nothing, he realized the trick. Furious, he ran back, but the guinea pig was gone.
+Days later, Atoq found the guinea pig sleeping and tied him to a tree.
+"Now I will eat you!"
+"Help!" shouted the guinea pig. "They are forcing me to be the Sun's sentinel!"
+A farmer passed by. "What are you doing there?"
+"They tied me up to watch the Sun's path. It's boring work!"
+The farmer untied the guinea pig and tied himself up. When the fox returned and found the farmer, he regretted his slowness.
+The guinea pig proved to be smarter than the fox.`,
+            qu: `Hanaq chirisqa punapi, Atuq aswan yachayniyuq kasqanta yuyarqan. Ukuchataq pisi yuyayniyuq hina rikusqa karqan.
+Huk paqarin, Atuq papa chakrata tarirqan. Ukuchata hap'iyta munarqan.
+Ukucha chayamuptin, Atuq hap'irqan.
+—¡Ja, ja, ja! —asikurqan—. ¡Kunanmi mikusqayki!
+Ukucha nirqan: —Llakikunimi, Tayta Atuq. Huk hatun qori quesotan qochapi rikurqani.
+Atuq Killaq llanthunta qochapi rikurqan.
+—¡Chay qori quesoqa ñoqapaqmi! —nispa, ukuchata kacharirqan.
+Atuq yakuman p'itarqan. Mana imata tarispa, phiñakurqan. Ukuchaqa ayqekusqaña.
+Huk p'unchay, Atuq ukuchata watarqan.
+—¡Kunanqa mikusqaykipuni!
+—¡Yanapaykuway! —qaparirqan Ukucha—. ¡Intiq qhawaqninmi kani!
+Huk runa tapurqan: —¿Imatan ruwanki?
+—Intiq ñanninta qhawanaypaqmi watawanku.
+Runa ukuchata kacharirqan, paytaq watakurqan. Atuq kutimuspa runata tarirqan.
+Ukuchaqa Atuqlmanta aswan yachayniyuq karqan.`
         },
         illustrations: [],
-        audioSrc: 'https://drive.google.com/uc?export=download&id=1kMYxvlTQnFOaCoGdcDNmB_Q8htqQenDo',
-        audioDuration: '4:15'
+        audioSrc: {
+            es: 'https://drive.google.com/uc?export=download&id=1kMYxvlTQnFOaCoGdcDNmB_Q8htqQenDo',
+            en: null,
+            qu: null
+        },
+        audioDuration: {
+            es: '4:15'
+        }
     },
     {
         id: '3',
-        title: { es: 'La Burra y el Toro', en: '', qu: '' },
-        author: { es: 'Tradición Andina', en: '', qu: '' },
+        title: { es: 'La Burra y el Toro', en: 'The Donkey and the Bull', qu: 'Asnawan Turu' },
+        author: { es: 'Tradición Andina', en: 'Andean Tradition', qu: 'Andes Willakuy' },
         cover: 'https://i.imgur.com/XdvCHJk.png',
         content: {
             es: `En una hacienda del valle, donde las cañas de azúcar crecían altas y dulces, vivían dos animales que trabajaban para el patrón: un fuerte Toro llamado Fiero y una perezosa Burra llamada Juana.
@@ -89,44 +147,70 @@ Fiero, que había pasado un día plácido, se acercó a Juana, sonriendo.
 La Burra, con la voz apenas audible, miró a su amigo.
 —Fiero, no tienes idea de lo que me han contado —dijo Juana, mintiendo un poco para salvar su orgullo—. ¡Escucha! Oí decir al patrón que si no te dejas atrapar mañana, te va a vender al carnicero por ser inútil. ¡Te lo suplico, hazte el manso y déjate llevar! Es peligroso holgazanear.
 El Toro, asustado ante la idea del carnicero, asintió con la cabeza. Al día siguiente, se dejó llevar dócilmente al trapiche.
-La Burra, libre y sana, volvió a su vida de ocio. Pero, en el fondo, Juana había comprendido algo: el esfuerzo de Fiero era mucho más duro de lo que ella imaginaba, y dar consejos sobre el trabajo cuando no se ha experimentado, no sirve de nada. A veces, la ayuda más grande que se puede ofrecer es la honestidad, no el engaño para librarse de una tarea.`,
-            en: '',
-            qu: ''
+La Burra, libre y sana, volvió a su vida de ocio. Pero, en el fondo, Juana había comprendido algo: el esfuerzo de Fiero era mucho más duro de lo que ella imaginaba.`,
+            en: `On a hacienda in the valley, where sugar cane grew tall and sweet, lived two animals working for the boss: a strong Bull named Fiero and a lazy Donkey named Juana.
+Fiero the Bull was big and muscular. Every morning, he was yoked to the mill to grind cane. He walked in circles tirelessly, from dawn to dusk.
+Juana the Donkey, on the other hand, hardly worked. She only moved small packages occasionally.
+One day, Juana saw Fiero so exhausted that she approached him to give him "advice".
+"Oh, little Bull!" brayed Juana. "You suffer too much. With those horns and strength, why do you let them abuse you? Tomorrow, act brave, moo and kick, and you'll see how they leave you alone!"
+The Bull thought Juana was right. "You're right. Tomorrow they will see who Fiero is!"
+The foreman overheard the conversation and smiled maliciously.
+The next morning, the Bull kicked and bellowed furiously. No one could tie him to the mill.
+The foreman ordered: "Enough! Bring the Donkey! Since she is so wise in giving advice on resting, let her work today."
+Juana paled. She was yoked to the heavy mill. Round and round, under the harsh sun.
+At the end of the day, Juana was crushed. Fiero, who had rested, approached her.
+"How was your day off?"
+Juana, lying to save her pride, said: "Fiero, I heard the boss say that if you don't let yourself be caught tomorrow, he will sell you to the butcher. Please, be tame!"
+The Bull, scared, nodded. The next day, he went docilely to the mill.
+Juana returned to her life of leisure, but she had understood that Fiero's effort was much harder than she imagined.`,
         },
         illustrations: [],
-        audioSrc: 'https://drive.google.com/uc?export=download&id=1WUok9egCCZWgtJIl9eX8Ce3IwNUpemnz',
-        audioDuration: '4:30'
+        audioSrc: {
+            es: 'https://drive.google.com/uc?export=download&id=1WUok9egCCZWgtJIl9eX8Ce3IwNUpemnz',
+        },
+        audioDuration: { es: '4:30' }
     },
     {
         id: '4',
-        title: { es: 'El Mago de Tambor', en: '', qu: '' },
-        author: { es: 'Tradición Andina', en: '', qu: '' },
+        title: { es: 'El Mago de Tambor', en: 'The Drum Wizard', qu: '' },
+        author: { es: 'Tradición Andina', en: 'Andean Tradition', qu: '' },
         cover: 'https://i.imgur.com/38dZNyP.png',
         content: {
-            es: `En la costa sur del Perú, existió en tiempos remotos una ciudad llamada Pariallá. Era un lugar bellísimo. Sus calles empedradas eran impecables, sus casas de piedra tallada lucían adornos de oro, y sus pobladores eran hábiles artesanos conocidos por su riqueza.
-Sin embargo, a pesar de su prosperidad material, la gente de Pariallá había descuidado algo mucho más valioso: la educación del corazón de sus hijos. Los niños del pueblo crecían siendo malcriados, arrogantes y faltos de respeto hacia los demás, especialmente hacia los humildes.
-Un día, llegó a Pariallá un anciano mendigo. Caminaba muy despacio, apoyado en un bastón, y llevaba ropa gastada y remendada. Al verlo, un grupo de niños que jugaba en la plaza comenzó a burlarse.
-—¡Mira, mira, un viejo pellejo! —se reían unos. —¡Qué joroba tan grande! —gritaban otros, imitando su andar. —¿Por qué no te compras ropa nueva, anciano? ¡Hueles mal! —lo insultaban, tirándole de la ropa.
-El anciano, que caminaba con dificultad, no les respondió. Soportó los insultos y las burlas en silencio. Siguió caminando sin quejarse hasta llegar a las afueras de la ciudad, cerca de una colina.
-Allí se detuvo, se volteó y, con un movimiento lento, introdujo la mano en su alforja. Los niños, pensando que les iba a tirar piedras, se prepararon para huir. Pero el anciano sacó un objeto inesperado: un pequeño y hermoso tambor. Se los entregó sin decir una palabra y luego, con la misma calma, se marchó por un sendero que se perdía en el campo.
-Los niños, extrañados, se olvidaron del anciano y se concentraron en el regalo. Corrieron a la colina para tocarlo.
-—¡Pum, pum, pum! —sonaba el tambor. —¡Yo lo toco más fuerte! —gritó uno, golpeándolo con rabia. —¡Ahora con los pies! —dijo otro, dándole patadas.
-El ruido se hizo ensordecedor, resonando en el valle. Los niños se reían del regalo del "viejo tonto" y continuaron golpeando el instrumento hasta que, inevitablemente, el tambor se rompió.
-En ese instante, algo mágico y terrible sucedió. Del tambor roto no salió más sonido, sino un chorro de agua que, al principio, era solo un hilo, pero que creció en segundos hasta convertirse en un torrente indetenible.
-¡El anciano mendigo era en realidad un Mago poderoso! Había visitado Pariallá para probar la nobleza de su gente. Al encontrar solo burla y desprecio, la destrucción del tambor fue el castigo por la falta de respeto de los niños.
-El agua inundó la ciudad, cubriendo las calles y las casas de piedra en minutos. La gente de Pariallá no tuvo tiempo de escapar de la furia del agua y la ciudad se hundió por completo.
-Cuentan que hoy, en ese lugar, existe una hermosa y profunda laguna cristalina. Y cuando el sol brilla sobre el agua, se pueden ver en el fondo los destellos de las antiguas casas de piedra de Pariallá, recordando a los viajeros que el respeto a los débiles y la humildad son la verdadera grandeza de un pueblo.`,
-            en: '',
-            qu: ''
+            es: `En la costa sur del Perú, existió en tiempos remotos una ciudad llamada Pariallá. Era un lugar bellísimo. Sus calles empedradas eran impecables.
+Sin embargo, la gente de Pariallá había descuidado la educación del corazón de sus hijos. Los niños crecían siendo malcriados y arrogantes.
+Un día, llegó un anciano mendigo. Un grupo de niños comenzó a burlarse de él.
+—¡Mira, un viejo pellejo! —se reían.
+El anciano soportó los insultos en silencio. Al llegar a las afueras, sacó un pequeño tambor y se los entregó.
+Los niños corrieron a tocarlo.
+—¡Pum, pum, pum!
+El ruido se hizo ensordecedor hasta que el tambor se rompió.
+Del tambor roto salió un chorro de agua que creció hasta convertirse en un torrente.
+¡El anciano era un Mago poderoso! Había visitado Pariallá para probar la nobleza de su gente. La destrucción del tambor fue el castigo.
+El agua inundó la ciudad y Pariallá se hundió por completo.
+Cuentan que hoy, en ese lugar, existe una hermosa laguna, recordando que el respeto y la humildad son la verdadera grandeza.`,
+            en: `On the southern coast of Peru, there once was a city called Pariallá. It was a beautiful place.
+However, the people of Pariallá had neglected the education of their children's hearts. The children grew up spoiled and arrogant.
+One day, an old beggar arrived. A group of children began to mock him.
+"Look, an old skinbag!" they laughed.
+The old man endured the insults in silence. When he reached the outskirts, he took out a small drum and gave it to them.
+The children ran to play it.
+"Boom, boom, boom!"
+The noise became deafening until the drum broke.
+From the broken drum came a stream of water that grew into a torrent.
+The old man was a powerful Wizard! He had visited Pariallá to test the nobility of its people. The destruction of the drum was the punishment.
+The water flooded the city and Pariallá sank completely.
+It is said that today, in that place, there is a beautiful lagoon, reminding us that respect and humility are the true greatness.`,
         },
         illustrations: [],
-        audioSrc: 'https://drive.google.com/uc?export=download&id=15jGhbwX0pzjgUh4USdTap2Q-ij2j3SJD',
-        audioDuration: '5:10'
+        audioSrc: {
+            es: 'https://drive.google.com/uc?export=download&id=15jGhbwX0pzjgUh4USdTap2Q-ij2j3SJD',
+        },
+        audioDuration: { es: '5:10' }
     },
     {
         id: '5',
-        title: { es: 'Otorongo el Orgulloso', en: '', qu: '' },
-        author: { es: 'Tradición Andina', en: '', qu: '' },
+        title: { es: 'Otorongo el Orgulloso' },
+        author: { es: 'Tradición Andina' },
         cover: 'https://i.imgur.com/voTq3Ju.png',
         content: {
             es: `En las profundidades de la selva peruana, donde el follaje espeso apenas deja pasar la luz del sol, vivía Otorongo, un felino de manchas hermosas y ágil andar. Era un animal fuerte, pero mucho más pequeño que su temido primo, el Jaguar.
@@ -149,17 +233,17 @@ El Jaguar soltó una carcajada que hizo temblar la tierra.
 Acto seguido, el Jaguar saltó dentro del agujero para devorar a Otorongo. Sin embargo, el felino gigante no calculó el espacio. El agujero era demasiado pequeño para el Jaguar, que quedó atascado y atrapado junto a su primo.
 Los animales de la selva, al ver a los dos felinos inmovilizados, no tuvieron miedo de acercarse y taparon el agujero con ramas, rocas y barro, sellando a los dos peligros.
 Así fue como la mentira y el orgullo de Otorongo terminaron costándole la vida, pero, de manera irónica, su vanidad y su caída salvaron a toda la selva de la tiranía del Jaguar.`,
-            en: '',
-            qu: ''
         },
         illustrations: [],
-        audioSrc: 'https://drive.google.com/uc?export=download&id=1rO6_2lyfqUEnRerSSQhQNS3kVmp--jyA',
-        audioDuration: '4:45'
+        audioSrc: {
+            es: 'https://drive.google.com/uc?export=download&id=1rO6_2lyfqUEnRerSSQhQNS3kVmp--jyA',
+        },
+        audioDuration: { es: '4:45' }
     },
     {
         id: '6',
-        title: { es: 'La Garza Blanca', en: '', qu: '' },
-        author: { es: 'Tradición Andina', en: '', qu: '' },
+        title: { es: 'La Garza Blanca' },
+        author: { es: 'Tradición Andina' },
         cover: 'https://i.imgur.com/HnMa80v.png',
         content: {
             es: `En la región de Ucayali, cerca de un afluente del gran río Amazonas, vivía un modesto matrimonio con sus tres hijos: dos varones y una hermosa niña. La pequeña se llamaba Blanca porque siempre vestía túnicas de ese color, era dulce de carácter y muy trabajadora.
@@ -175,17 +259,17 @@ Pasó el tiempo, y los pobladores del Ucayali notaron algo curioso. Casi todas l
 El pueblo entendió entonces que la Garza Blanca era el espíritu de la buena de Blanca, convertida en ave por la envidia.
 Desde ese día, los pobladores del Ucayali le tienen un inmenso respeto al ave. Cuando una Garza Blanca sobrevuela las casas y emite su canto característico, que suena a un susurro de advertencia, las madres les enseñan a sus hijos a tragar saliva inmediatamente. Creen que el espíritu de Blanca, transformada en garza, los protege de las espinas, de ahogarse en el río y de cualquier mal de la selva.
 Gracias a la niña convertida en ave, comer pescado en el Ucayali es un placer seguro.`,
-            en: '',
-            qu: ''
         },
         illustrations: [],
-        audioSrc: 'https://drive.google.com/uc?export=download&id=1XVf9ypMAUoVjk3i9-d_sgD2D8EHQWAb1',
-        audioDuration: '5:25'
+        audioSrc: {
+            es: 'https://drive.google.com/uc?export=download&id=1XVf9ypMAUoVjk3i9-d_sgD2D8EHQWAb1',
+        },
+        audioDuration: { es: '5:25' }
     },
     {
         id: '7',
-        title: { es: 'El Loro y la Vizcacha', en: '', qu: '' },
-        author: { es: 'Tradición Andina', en: '', qu: '' },
+        title: { es: 'El Loro y la Vizcacha' },
+        author: { es: 'Tradición Andina' },
         cover: 'https://i.imgur.com/WO4g0Mh.png',
         content: {
             es: `En un hermoso bosque en las faldas de los Andes, vivían en armonía muchos animales, todos amigos y respetuosos entre sí. Esta paz se rompió el día que llegó al bosque un Loro Parlanchín y Maleducado.
@@ -206,15 +290,13 @@ Ese día, el bosque amaneció en un silencio inusual. Los animales estaban desco
 El Loro pasó siete días sin poder emitir un solo sonido. Los animales del bosque, libres de insultos, paseaban tranquilos, sin hacerle caso. El Loro, solo y sin poderse comunicar, comprendió el dolor que había causado con sus palabras y lo terrible que era no tener amigos.
 Al despertar el séptimo día, el Loro recuperó la voz. —¡Puedo hablar! ¡Puedo hablar! —exclamó—. ¡Perdónenme! ¡Desde ahora, prometo usar mis palabras para alabar y ser amable con todos!
 El Loro cumplió su promesa. Los demás animales lo perdonaron y descubrieron que, sin sus insultos, el Loro podía ser un buen amigo. Un mes después, en lugar de expulsarlo, le hicieron una gran fiesta de bienvenida.`,
-            en: '',
-            qu: ''
         },
         illustrations: [],
     },
     {
         id: '8',
-        title: { es: 'El Cóndor y la Muchacha', en: '', qu: '' },
-        author: { es: 'Tradición Andina', en: '', qu: '' },
+        title: { es: 'El Cóndor y la Muchacha' },
+        author: { es: 'Tradición Andina' },
         cover: 'https://i.imgur.com/RIdR3xF.png',
         content: {
             es: `En un pequeño pueblo en lo alto de la Cordillera de los Andes, vivía una bella muchacha llamada Killa (Luna en quechua), que ayudaba a su padre a pastorear sus ovejas y alpacas en las faldas de la montaña. Killa era hermosa, pero muy solitaria, pues pasaba largas horas al lado de su rebaño.
@@ -232,8 +314,6 @@ Cuando el Cóndor regresó a su nido, el Picaflor se acercó a él con un sembla
 El Cóndor, al ver a las dos criaturas verdes vestidas con la ropa de su familia, sintió un dolor inmenso. Lloró amargas lágrimas de tristeza y desesperación por haber perdido a su amada. Tan afectado quedó por la pérdida que tomó una decisión que le partió el alma.
 —¡No quiero más amores! —rugió—. Desde ahora, viviré solo el resto de mis días.
 Desde entonces, el Cóndor, rey de los cielos andinos, es un animal solitario. Sobrevuela las cumbres con un semblante serio y triste, recordando aquel amor que le fue arrebatado. Killa regresó a casa con su padre y, cumpliendo su promesa, su jardín se convirtió en el lugar favorito del Picaflor, quien ya nunca pasó hambre.`,
-            en: '',
-            qu: ''
         },
         illustrations: [],
     }

@@ -9,7 +9,7 @@ const Stories: React.FC = () => {
 
     return (
         <div>
-            <div className="flex flex-col sm:flex-row justify-center sm:justify-between items-center mb-8 gap-4">
+            <div className="flex flex-col md:flex-row justify-center md:justify-between items-center mb-8 gap-6">
                  <h1 className="text-4xl font-bold text-center text-stokyds-red">Cuentos para Soñar</h1>
                  <LanguageSelector />
             </div>
@@ -21,7 +21,7 @@ const Stories: React.FC = () => {
                         imageUrl={story.cover} 
                         title={story.title[language] || story.title.es!} 
                         subtitle={story.author[language] || story.author.es!} 
-                        hasAudio={!!story.audioSrc}
+                        story={story} // Passing the full object for badges
                     />
                 ))}
             </div>

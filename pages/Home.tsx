@@ -30,7 +30,14 @@ const Home: React.FC = () => {
 
             <Section title="Cuentos Populares" to="/stories">
                 {stories.slice(0, 4).map(story => (
-                    <Card key={story.id} to={`/stories/${story.id}`} imageUrl={story.cover} title={story.title[language] || story.title.es!} subtitle={story.author[language] || story.author.es!} hasAudio={!!story.audioSrc} />
+                    <Card 
+                        key={story.id} 
+                        to={`/stories/${story.id}`} 
+                        imageUrl={story.cover} 
+                        title={story.title[language] || story.title.es!} 
+                        subtitle={story.author[language] || story.author.es!} 
+                        story={story}
+                    />
                 ))}
             </Section>
 

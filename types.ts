@@ -9,8 +9,8 @@ export interface Story {
     cover: string;
     content: { [key in Language]?: string };
     illustrations: string[];
-    audioSrc?: string;
-    audioDuration?: string;
+    audioSrc?: { [key in Language]?: string };
+    audioDuration?: { [key in Language]?: string };
 }
 
 export interface Comic {
